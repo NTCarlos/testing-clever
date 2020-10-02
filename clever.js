@@ -1,9 +1,9 @@
 const req = require('request-promise');
 const async = require('async');
 
-CLIENT_ID = process.env.CLEVER_CLIENT_ID;
-CLIENT_SECRET = process.env.CLEVER_CLIENT_SECRET;
-REDIRECT_URL = process.env.REDIRECT_URL;
+CLIENT_ID = 'f72cdb5b20623d71325a';
+CLIENT_SECRET = '34fe3bf977c4dcd9fc2f05941d260fbb0d9db1fd';
+REDIRECT_URL = 'https://testing-clever.herokuapp.com/oauth';
 
 async function runOAuthFlow(code) {
   console.log("getting token");
