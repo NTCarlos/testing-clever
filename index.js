@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000
 // We pull our Clever secrets out of the environment where the code is run, so that we don't check our secrets into version control
 CLIENT_ID = 'f72cdb5b20623d71325a';
 CLIENT_SECRET = '34fe3bf977c4dcd9fc2f05941d260fbb0d9db1fd';
-REDIRECT_URL = 'http://localhost/oauth';
+REDIRECT_URL = 'https://testing-clever.herokuapp.com/oauth';
 
 // Set up a basic server
 SESSION_SECRET = '34fe3bf977c4dcd9fc2f05941d260fbb0d9db1fd';
